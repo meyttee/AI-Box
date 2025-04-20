@@ -11,6 +11,7 @@ const compat = new FlatCompat({
 });
 
 export default [
+  ...baseConfig,
   ...fixupConfigRules(compat.extends('next')),
   ...fixupConfigRules(compat.extends('next/core-web-vitals')),
   ...baseConfig,

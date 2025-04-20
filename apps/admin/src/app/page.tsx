@@ -1,3 +1,5 @@
+import { Theme } from '@aib/theme';
+
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -7,6 +9,7 @@ export default function Index() {
   return (
     <div>
       <div className="wrapper">
+        <Theme />
         <div className="container">
           <div id="welcome">
             <h1>
